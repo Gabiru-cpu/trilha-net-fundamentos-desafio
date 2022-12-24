@@ -78,7 +78,7 @@ namespace DesafioFundamentos.Models
                 decimal valorTotal = precoInicial + precoPorHora * horas; 
 
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
-                veiculos.Remove(placa);
+                veiculos.Remove(placa); marcas.Remove(placa); modelos.Remove(placa); proprietarios.Remove(placa);
             }
             else
             {
